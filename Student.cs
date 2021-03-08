@@ -4,17 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PairProg
+namespace PairProg   
 {
-    public class Student
+    public class Student    //class student  with all the variables
     {
         string name;
         int id;
         double percentage;
         string[] skills;
         int skillsSize;
+        
+        
+        //constructors
 
-        Student()
+        Student()      
         {
             name = "";
             id = 0;
@@ -31,6 +34,8 @@ namespace PairProg
             this.skills = skills;
             this.skillsSize = skillsSize;
         }
+        
+        //setters and getters
 
         public void setName(String name)
         {
